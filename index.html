@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="핀카 라스 모레나스 엑스트라 버진 올리브오일 — 스페인 안달루시아 농장에서 직접 전하는 프리미엄 올리브오일">
+  <title>핀카 라스 모레나스 | 엑스트라 버진 올리브오일</title>
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER — Navegación sticky transparente / esmerilado
+       ============================================================ -->
+  <header class="main-header" id="main-header">
+    <div class="header-inner">
+      <a href="#home" class="logo-link" aria-label="핀카 라스 모레나스 홈">
+        <img src="imagenes/logo.png" alt="Finca Las Morenas 로고" class="logo-img">
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="주요 메뉴">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">홈</a></li>
+          <li><a href="#products" class="nav-link">제품</a></li>
+          <li><a href="#about" class="nav-link">스토리</a></li>
+          <li><a href="#quality" class="nav-link">검증</a></li>
+          <li><a href="#catalog" class="nav-link">구매</a></li>
+          <li><a href="#contact" class="nav-link">문의</a></li>
+        </ul>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="메뉴 열기"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SECCIÓN 1 — HERO -->
+    <section id="home" class="hero-container" aria-label="메인 히어로">
+      <img
+        src="imagenes/hero-bg.png"
+        alt="핀카 라스 모레나스 엑스트라 버진 올리브오일"
+        class="hero-bg-img"
+        width="1440"
+        height="900"
+        fetchpriority="high"
+      >
+
+      <div class="hero-overlay">
+        <div class="hero-copy" aria-label="hero copy">
+          <p class="hero-text-top">스페인 농장에서 키워내 직접 전하는</p>
+          <h1 class="hero-title">Finca Las Morenas</h1>
+          <p class="hero-text-bottom">핀카 라스 모레나스 엑스트라 버진 올리브오일</p>
+        </div>
+
+        <div class="hero-badges" aria-label="품질 지표">
+          <article class="badge badge--left-top">
+            <span class="badge-label">Polyphenols</span>
+            <strong class="badge-value">346</strong>
+            <span class="badge-unit">mg/kg</span>
+          </article>
+
+          <article class="badge badge--left-bottom">
+            <span class="badge-label">스페인 가족이</span>
+            <strong class="badge-value">한국으로</strong>
+            <span class="badge-unit">직접 전하는</span>
+          </article>
+
+          <article class="badge badge--right-top">
+            <span class="badge-label">LOWEST ACIDITY</span>
+            <strong class="badge-value">0.14</strong>
+            <span class="badge-unit">%</span>
+          </article>
+
+          <article class="badge badge--right-bottom badge--icon">
+            <img src="imagenes/oliva-badge.png" alt="" class="badge-icon-img" width="40" height="40">
+            <span class="badge-label">EXTRA VIRGIN</span>
+          </article>
+        </div>
+
+        <a target="_blank" href="https://smartstore.naver.com/molinospain/products/12339537836?fbclid=PAQ0xDSwMo6r9leHRuA2FlbQIxMQABp6Uvkz_Cfqj4pXIShNh3V4qQ3FLrvwpTpMz6OyGbevqmqghkxrmoF-y3ADQ3_aem_uJ8PZ0ssqBqTxVlH_ieG4w" class="hero-cta">
+          <span class="hero-cta-text">구매하기</span>
+          <span class="hero-cta-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2 — Intro / Productos -->
+    <section id="products" class="intro-fixed-container" aria-label="제품 소개">
+      <img src="imagenes/olivas-presentacion.png" alt="스페인 올리브 프레젠테이션" class="intro-bg-img" width="1440" height="800" loading="lazy">
+
+      <div class="intro-overlay">
+        <header class="intro-header">
+          <h2 class="intro-title">
+            <span class="intro-title-emphasis">풍미와 향</span>이 살아있는<br>
+            전통 프리미엄 엑스트라 버진
+          </h2>
+          <p class="intro-description">
+            '스페인방앗간' 올리브오일은<br>
+            전통 방식 그대로 수확한<br>
+            <span class="highlight-text">스페인산 '피쿠알' 과 '오히블랑카' 올리브를</span>
+            저온 압착하여 만든 최상의 올리브오일입니다.
+          </p>
+        </header>
+
+        <article class="taste-aroma-card">
+          <header class="taste-card-header">
+            <span class="taste-card-header-left">Taste &amp; Aroma</span>
+            <span class="taste-card-header-right">Spanish Olive Mill</span>
+          </header>
+
+          <div class="taste-card-body">
+            <figure class="radar-chart-wrap">
+              <img src="imagenes/radar-chart.png" alt="맛과 향 레이더 차트" class="radar-chart-img" width="260" height="260" loading="lazy">
+            </figure>
+
+            <div class="taste-scores">
+              <table class="scores-table">
+                <caption class="visually-hidden">맛과 향 프로필 점수</caption>
+                <tbody>
+                  <tr>
+                    <th scope="row">과일향</th>
+                    <td>
+                      <span class="score-dots" aria-label="5점 중 5">
+                        <span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot dot--filled"></span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">부드러움</th>
+                    <td>
+                      <span class="score-dots" aria-label="5점 중 4">
+                        <span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot"></span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">쌉쌀한맛</th>
+                    <td>
+                      <span class="score-dots" aria-label="5점 중 3">
+                        <span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot dot--filled"></span><span class="dot"></span><span class="dot"></span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">매운맛</th>
+                    <td>
+                      <span class="score-dots" aria-label="5점 중 2">
+                        <span class="dot dot--filled"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">산도</th>
+                    <td class="score-value">0.14%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="intro-card-footnote">
+              *신선식품의 특성상 원물마다 약간의 차이가 있을 수 있으며, 제품이 아닌 원료에 대한 내용입니다.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3 — Verdadero aceite de oliva -->
+    <section id="about" class="story-section" aria-label="브랜드 스토리">
+      <div class="section-inner">
+        <header class="section-header">
+          <p class="section-eyebrow">진정한 올리브오일은</p>
+          <h2 class="section-title"><span class="section-title-asterisk">*</span>때깔부터 다르니까!</h2>
+          <p class="section-lead">진한 올리브색을 그대로 간직한<br>스페인방앗간 올리브오일</p>
+        </header>
+
+        <figure class="story-canvas story-canvas--oil">
+          <video class="story-canvas-video" src="imagenes/videoaceite.mp4" autoplay muted loop playsinline preload="metadata"></video>
+          <figcaption class="story-canvas-caption">
+            <span class="story-caption-label">투명함이 아닌 진함의 차이</span>
+            <p>첫 순간부터 다른 색과 풍미, 스페인 방앗간의 진짜 올리브오일입니다.</p>
+          </figcaption>
+        </figure>
+
+        <p class="story-lead">
+          시중의 투명한 올리브오일과<br>
+          <span class="highlight-text--inline">스페인방앗간의 불투명한 올리브오일</span>은<br>
+          뭐가 다른걸까요?
+        </p>
+
+        <div class="compare-grid">
+          <article class="compare-card compare-card--common">
+            <figure class="compare-figure">
+              <img src="imagenes/tarroaceite.png" alt="저필터 올리브오일" class="compare-img">
+            </figure>
+            <h3 class="compare-title">저필터 올리브오일</h3>
+            <p class="compare-copy">큰 불순물만 제거, 과육, 미세입자, 향, 성분을 그대로 지켜내 남기는 방식</p>
+            <table class="compare-table">
+              <tbody>
+                <tr><th scope="row">투명도</th><td>불투명</td></tr>
+                <tr><th scope="row">침전물</th><td>있을 수 있음</td></tr>
+                <tr><th scope="row">풍미</th><td>진하고 풍부</td></tr>
+                <tr><th scope="row">향</th><td>올리브 본연의 향</td></tr>
+                <tr><th scope="row">추천</th><td>풍미를 즐길 때</td></tr>
+              </tbody>
+            </table>
+          </article>
+
+          <!-- Tarjeta con el CHECK que se había perdido -->
+          <article class="compare-card compare-card--premium">
+            <figure class="compare-figure">
+              <img src="imagenes/tarroaceitepro.png" alt="고필터 올리브오일" class="compare-img">
+            </figure>
+            <h3 class="compare-title">고필터 올리브오일</h3>
+            <p class="compare-copy">미세필터로 과육, 미세입자까지 정밀하게 제거하는 방식</p>
+            <table class="compare-table">
+              <tbody>
+                <tr><th scope="row">투명도</th><td>맑고 투명</td></tr>
+                <tr><th scope="row">침전물</th><td>거의 없음</td></tr>
+                <tr><th scope="row">풍미</th><td>깔끔하고 부드러움</td></tr>
+                <tr><th scope="row">향</th><td>은은한 향</td></tr>
+                <tr><th scope="row">추천</th><td>가볍게 즐길 때</td></tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4 — Numerical Verification -->
+    <section id="quality" class="quality-section" aria-label="수치 검증">
+      <div class="section-inner">
+        <header class="section-header section-header--center quality-header-top">
+          <div class="quality-top-bar">
+            <span>Numerical Verification</span>
+            <span>Spanish Olive Mill</span>
+          </div>
+          <h2 class="section-title">수치로 증명하는 품질</h2>
+        </header>
+
+        <div class="quality-grid">
+          <article class="quality-card quality-card--verification">
+            <div class="quality-card-top">
+              <h3 class="quality-card-title">산도</h3>
+              <p class="quality-card-copy">일반 엑스트라버진 0.5~0.8<br>최상급 0.4 이하</p>
+              <p class="quality-card-highlight">스페인방앗간 엑스트라버진 0.14%</p>
+            </div>
+            <figure class="quality-doc">
+              <img src="imagenes/acidosgrasos.png" alt="산도 테스트 결과" loading="lazy">
+            </figure>
+          </article>
+
+          <article class="quality-card quality-card--verification">
+            <div class="quality-card-top">
+              <h3 class="quality-card-title">폴리페놀</h3>
+              <p class="quality-card-copy">일반 엑스트라버진 200~350<br>최상급 350 이상</p>
+              <p class="quality-card-highlight">스페인방앗간 엑스트라버진 346 mg/kg</p>
+            </div>
+            <figure class="quality-doc">
+              <img src="imagenes/polifenoles.png" alt="폴리페놀 테스트 결과" loading="lazy">
+            </figure>
+          </article>
+        </div>
+
+        <div class="quality-note">
+          <p>항산화 연구가 활발히 진행되고 있는 올리브 유래 폴리페놀</p>
+          <strong>OLEACEIN &amp; OLEOCANTHAL</strong>
+        </div>
+
+        <div class="quality-bottom-grid">
+          <article class="quality-stat">
+            <h3>올레산</h3>
+            <p class="quality-value">82%</p>
+            <p>올리브오일 주요 지방산</p>
+          </article>
+          <article class="quality-stat">
+            <h3>올레오칸탈</h3>
+            <p class="quality-value">29.6 mg/kg 함유</p>
+            <p>페놀 화합물, 쌉쌀한 목넘김</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5 — Brand Story (Imágenes de 3 en 3 recuperadas) -->
+    <section id="brand-story" class="image-feature-section" aria-label="브랜드 스토리">
+      <div class="section-inner brand-story-hero">
+        <header class="section-header section-header--center">
+          <p class="section-eyebrow">Brand Story</p>
+          <h2 class="section-title">브랜드 스토리</h2>
+          <p class="section-lead section-lead--dark">스페인에서 태어나 한국에 뿌리내린</p>
+        </header>
+
+        <article class="brand-story-main">
+          <img src="imagenes/productores.png" alt="Finca Las Morenas productores" class="brand-story-main-image">
+          <div class="brand-story-main-copy">
+            <h3>한국인 여자의 이야기</h3>
+            <p>
+              스페인 남자와 한국 여자가 만났습니다. 지금은 자연이 살아있는 영월에서 살고 있습니다.
+              저희 가족은 스페인에서 대대로 올리브 농장을 운영하며 올리브오일을 만들어 왔기에
+              어떻게 재배하고 생산하는지 너무나 잘 알고 있습니다.
+              최적의 환경에서 정성껏 키운 싱싱한 올리브로 최상의 오일을 만들기에, 까다롭고 정직하기로 소문난
+              한국에도 꼭 선보이고 싶었습니다!
+            </p>
+          </div>
+        </article>
+
+        <div class="brand-story-images-section">
+          <div class="brand-story-images-grid">
+            <img src="imagenes/s1.png" alt="수확의 순간" class="brand-story-grid-image">
+            <img src="imagenes/s2.png" alt="선별과 정선" class="brand-story-grid-image">
+            <img src="imagenes/s3.png" alt="저온 압착 준비" class="brand-story-grid-image">
+          </div>
+          <div class="brand-story-images-text">
+            <h3>KBS1 - 이웃집찰스 출연</h3>
+          </div>
+        </div>
+
+        <div class="brand-story-images-section">
+          <div class="brand-story-images-grid">
+            <img src="imagenes/s4.jpg" alt="압착 과정" class="brand-story-grid-image">
+            <img src="imagenes/s5.jpg" alt="품질 관리" class="brand-story-grid-image">
+            <img src="imagenes/s6.jpg" alt="최종 완성" class="brand-story-grid-image">
+          </div>
+          <div class="brand-story-images-text">
+            <h3>오프라인에서도 만나보세요!</h3>
+            <p>강원도 영월에 위치한 '카페 올라' 매장</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6 — Quién lo hace -->
+    <section id="who-does-it" class="brand-story-section section-bg-cream" aria-label="누가 만들까">
+      <div class="section-inner vertical-cards-container">
+        <div class="story-premium-card">
+          <div class="card-num-badge">01</div>
+          <h2 class="section-title">누가 만들까요?</h2>
+          <p class="section-lead section-lead--dark">
+            스페인방앗간의 올리브오일은 스페인의 안달루시아 중심부에서 할머니들로부터 시작되어 지금은 스페인에 있는 저희 가족들이 전통을 그대로 이어가고 있습니다.
+          </p>
+          <p class="card-highlight-text">
+            <span class="highlight-text">가족 경영 소량 생산 시스템</span>으로 수확 직후 빠르게 압착하여 신선함을 지킵니다.
+          </p>
+          <div class="card-media-wrap">
+            <img src="imagenes/f.jpg" alt="스페인방앗간 생산 지도 및 공정" class="card-responsive-img">
+          </div>
+        </div>
+
+        <div class="story-premium-card">
+          <div class="card-num-badge">02</div>
+          <h2 class="section-title">스페인 안달루시아의 비옥한 대지가 키운 올리브</h2>
+          <p class="section-lead section-lead--dark">
+            최고의 올리브는 안달루시아의 시에라 언덕과 강변 평야에서 자란다고 전해집니다. 우리는 그 비옥한 땅 위 넓은 올리브 농장에서 올리브를 직접 재배하고 생산합니다.
+          </p>
+          <div class="card-media-wrap">
+            <img src="imagenes/g.jpg" alt="스페인 안달루시아 올리브 필드" class="card-responsive-img">
+          </div>
+        </div>
+
+        <div class="story-premium-card">
+          <div class="card-num-badge">03</div>
+          <h2 class="section-title">완성된 오일, 마지막 품질 단계</h2>
+          <p class="section-lead section-lead--dark">
+            스페인 안달루시아의 품질을 보장하는 마지막 단계는 오일의 색감, 향, 텍스처를 섬세하게 점검하는 것입니다. 이는 최종 병입 전까지 이어지는 엄격한 프로세스입니다.
+          </p>
+          <div class="card-media-wrap">
+            <img src="imagenes/cortijo.jpg" alt="완성된 올리브 오일 숙성 과정" class="card-responsive-img">
+          </div>
+        </div>
+
+        <div class="process-block">
+          <div class="process-header">
+            <h3 class="section-title section-title--sm">신선함을 위한 노력!</h3>
+          </div>
+
+          <ul class="process-grid">
+            <li class="process-item"><div class="process-icon-wrap"><img src="imagenes/proceso1.png" alt="수확" class="process-icon"></div><p class="process-desc">수확한 올리브를 싣고 방앗간으로 이동</p></li>
+            <li class="process-item"><div class="process-icon-wrap"><img src="imagenes/proceso2.png" alt="세척" class="process-icon"></div><p class="process-desc">엄선하는 신선한 올리브</p></li>
+            <li class="process-item"><div class="process-icon-wrap"><img src="imagenes/proceso3.png" alt="냉압착" class="process-icon"></div><p class="process-desc">올리브 분쇄, 혼합</p></li>
+            <li class="process-item"><div class="process-icon-wrap"><img src="imagenes/proceso4.png" alt="여과" class="process-icon"></div><p class="process-desc">병입(보틀링) 작업</p></li>
+            <li class="process-item"><div class="process-icon-wrap"><img src="imagenes/proceso5.png" alt="숙성" class="process-icon"></div><p class="process-desc">블렌딩 후 순수 올리브오일</p></li>
+            <li class="process-item"><div class="process-icon-wrap"><img src="imagenes/proceso6.png" alt="병입" class="process-icon"></div><p class="process-desc">블렌딩에 적합한 저온 추출</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7 — Recomendado -->
+    <section id="recommended" class="recommended-fluid-container" aria-label="추천 제품">
+      <img src="imagenes/fondo7.png" alt="추천 제품 배경" class="recommended-bg-img">
+
+      <div class="recommended-overlay-content">
+        <div class="transparent-premium-box">
+          <h2 class="section-title text-white">고품질 &amp; 합리적인 가격이 가능한 이유!</h2>
+          <div class="divider-line"></div>
+          <p class="section-lead text-white">
+            스페인방앗간은 처음부터 끝까지 직접 생산·관리하기 때문에<br>
+            불필요한 중간 유통 과정을 모두 생략하고 오직 품질에 집중합니다.
+          </p>
+        </div>
+
+        <div class="transparent-premium-box list-box">
+          <p class="section-eyebrow gold-text">Recommended</p>
+          <h3 class="section-title text-white">이런분들께 추천드려요</h3>
+          <ul class="premium-check-list-native">
+            <li><span class="check-circle">✓</span><p><strong>스페인 현지의 맛과 향</strong>을 그대로 경험하고 싶으신 분</p></li>
+            <li><span class="check-circle">✓</span><p><strong>재배부터 생산까지 직접 관리</strong>한 올리브오일을 찾으시는 분</p></li>
+            <li><span class="check-circle">✓</span><p>요리의 마지막 한 방울까지 <strong>품질을 중요</strong>하게 생각하시는 분</p></li>
+            <li><span class="check-circle">✓</span><p><strong>특별한 풍미를 지닌 프리미엄 엑스트라 버진</strong>을 찾으시는 분</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 8 — Recetas -->
+    <section id="recipes" class="image-feature-section" aria-label="레시피">
+      <div class="section-inner">
+        <header class="section-header section-header--center">
+          <h2 class="section-title">건강과 풍미를 끌어올리는<br>최상의 레시피</h2>
+          <p class="section-lead section-lead--dark" style="margin-top: 1rem; font-weight: 500;">
+            <strong>요리 마무리로 최상의 풍미</strong>를 선사하는<br>
+            스페인방앗간 올리브오일을 곁들여보세요
+          </p>
+        </header>
+
+        <div class="recipes-vertical-list">
+          <article class="recipe-row-item">
+            <figure class="recipe-media-box"><img src="imagenes/receta-pan.png" alt="레몬즙+올리브 오일" class="recipe-fluid-img"></figure>
+            <div class="recipe-text-box"><h3>레몬즙+올리브 오일</h3><p>레몬쥬스와 최상의<br>시너지를 위한<br>신선한 올리브오일</p></div>
+          </article>
+          <article class="recipe-row-item">
+            <figure class="recipe-media-box"><img src="imagenes/receta-pasta.png" alt="오일 파스타" class="recipe-fluid-img"></figure>
+            <div class="recipe-text-box"><h3>오일 파스타</h3><p>든든하고 풍미있는<br>식사로 즐길 수 있는<br>클래식 조합</p></div>
+          </article>
+          <article class="recipe-row-item">
+            <figure class="recipe-media-box"><img src="imagenes/receta-pantomate.png" alt="스페인 전통 아침 식사" class="recipe-fluid-img"></figure>
+            <div class="recipe-text-box"><h3>스페인 전통 아침 식사</h3><p>신선한 토마토와<br>올리브오일로 완성하는<br>판 콘 토마테<br>(Pan con Tomate)</p></div>
+          </article>
+          <article class="recipe-row-item">
+            <figure class="recipe-media-box"><img src="imagenes/receta-ensalada.png" alt="샐러드" class="recipe-fluid-img"></figure>
+            <div class="recipe-text-box"><h3>샐러드</h3><p>재료 본연의 맛을<br>더욱 깊고 풍부하게 하는<br>올리브 드레싱</p></div>
+          </article>
+        </div>
+
+        <footer class="recipes-section-footer" style="margin-top: 3rem; text-align: center;">
+          <p class="recipe-footnote" style="display: inline-block; background-color: #F0EDE6; padding: 0.5rem 1.5rem; border-radius: 20px; font-size: 0.88rem; color: #555555; font-weight: 500;">
+            *풍미와 향을 위해 과도한 가열은 피해주세요
+          </p>
+        </footer>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 9 — Productos -->
+    <section id="catalog" class="catalog-section" aria-label="제품 라인업">
+      <div class="section-inner">
+        <header class="section-header section-header--center">
+          <h2 class="section-title">제품 라인업</h2>
+          <p class="section-lead section-lead--dark">
+            용도와 선물 목적에 맞게 선택하세요.
+            모든 제품은 수확 직후 냉압착한 신선한 오일입니다.
+          </p>
+        </header>
+
+        <ul class="catalog-grid">
+          <li class="catalog-card">
+            <figure class="catalog-img-wrap"><img src="imagenes/botella.png" alt="핀카 라스 모레나스 250ml" class="catalog-img" width="240" height="360" loading="lazy"></figure>
+            <div class="catalog-info">
+              <h3 class="catalog-name">엑스트라 버진 올리브오일</h3>
+              <p class="catalog-size">250 ml</p>
+              <p class="catalog-desc">데일리용 소용량. 샐러드와 드레싱에 이상적입니다.</p>
+              <a target="_blank" href="https://smartstore.naver.com/molinospain/products/12339537836?fbclid=PAQ0xDSwMo6r9leHRuA2FlbQIxMQABp6Uvkz_Cfqj4pXIShNh3V4qQ3FLrvwpTpMz6OyGbevqmqghkxrmoF-y3ADQ3_aem_uJ8PZ0ssqBqTxVlH_ieG4w" class="catalog-cta">구매 문의 →</a>
+            </div>
+          </li>
+
+          <li class="catalog-card catalog-card--featured">
+            <span class="catalog-badge">Best Seller</span>
+            <figure class="catalog-img-wrap"><img src="imagenes/botella1.png" alt="핀카 라스 모레나스 500ml" class="catalog-img" width="240" height="360" loading="lazy"></figure>
+            <div class="catalog-info">
+              <h3 class="catalog-name">엑스트라 버진 올리브오일</h3>
+              <p class="catalog-size">500 ml</p>
+              <p class="catalog-desc">가장 인기 있는 패밀리 사이즈. 요리와 마무리 모두.</p>
+              <a target="_blank" href="https://smartstore.naver.com/molinospain/products/12339537836?fbclid=PAQ0xDSwMo6r9leHRuA2FlbQIxMQABp6Uvkz_Cfqj4pXIShNh3V4qQ3FLrvwpTpMz6OyGbevqmqghkxrmoF-y3ADQ3_aem_uJ8PZ0ssqBqTxVlH_ieG4w" class="catalog-cta">구매 문의 →</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 10 — Cierre visual -->
+    <section id="closing-visual" class="closing-fluid-container" aria-label="마지막 비주얼">
+      <img src="imagenes/fondo10.png" alt="핀카 라스 모레나스 패키지 배경" class="closing-perfect-bg">
+      <div class="closing-absolute-top-overlay">
+        <div class="transparent-premium-box closing-compact-box">
+          <h2 class="section-title text-white">감사한 분께<br>마음을 전하세요</h2>
+          <div class="divider-line" style="width: 35px; height: 2px; background-color: var(--color-accent); margin: 0.8rem auto;"></div>
+          <p class="section-lead text-white" style="margin-top: 0;">
+            고급스러운 패키지 포장으로<br>
+            손색없는 선물이 되어 드립니다.<br>
+            어두운 유리병으로 산패 걱정까지 줄였습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer id="contact" class="site-footer" aria-label="푸터 및 문의">
+    <div class="footer-inner">
+      <div class="footer-col footer-brand-col">
+        <img src="imagenes/logofooter.png" alt="Finca Las Morenas" class="footer-logo footer-logo--mobile">
+        <p class="footer-tagline">스페인 안달루시아에서 직접 전하는 프리미엄 올리브오일</p>
+        <address class="footer-address">
+          <p>강원도 영월군 청령포로 126-3, 3층 (우편번호: 26236)</p>
+          <p>이메일: <a href="mailto:contact@spanishmill.co.kr">contact@spanishmill.co.kr</a></p>
+        </address>
+      </div>
+
+      <!-- COLUMNA 2: 고객센터 -->
+      <div class="footer-col footer-cs-col">
+        <h4 class="footer-heading">고객센터</h4>
+        <div class="cs-phones-list">
+          <p class="cs-phone-item">
+            <span class="flag-icon-group">
+              <!-- Bandera de Corea del Sur -->
+              <img src="https://flagcdn.com/w20/kr.png" alt="Corea" class="flag-img">
+            </span>
+            <span class="phone-label">한국어:</span>
+            <a href="tel:01036807560" class="phone-link">010-3680-7560</a>
+          </p>
+
+          <p class="cs-phone-item">
+            <span class="flag-icon-group">
+              <!-- Banderas de España y EE.UU. / Reino Unido -->
+              <img src="https://flagcdn.com/w20/es.png" alt="España" class="flag-img">
+              <img src="https://flagcdn.com/w20/us.png" alt="Inglés" class="flag-img">
+            </span>
+            <span class="phone-label">Español / English:</span>
+            <a href="tel:01065237560" class="phone-link">010-6523-7560</a>
+          </p>
+        </div>
+        <p class="cs-hours-info">평일 10:00~18:00 (주말/공휴일 휴무)</p>
+      </div>
+
+      <div class="footer-col footer-links-col">
+        <h4 class="footer-heading">SNS</h4>
+        <div class="footer-sns-wrapper">
+          <a href="https://www.instagram.com/aove_finca_las_morenas_kr/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/people/Aove-Finca-Las-Morenas/100069676546349/?locale=es_ES" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://smartstore.naver.com/molinospain/products/12339537836?fbclid=PAQ0xDSwMo6r9leHRuA2FlbQIxMQABp6Uvkz_Cfqj4pXIShNh3V4qQ3FLrvwpTpMz6OyGbevqmqghkxrmoF-y3ADQ3_aem_uJ8PZ0ssqBqTxVlH_ieG4w" target="_blank" rel="noopener noreferrer">Naver Store</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="footer-bottom-inner">
+        <div class="footer-legal-text">
+          <p class="copyright-text">&copy; 2026 Spanish Mill. All rights reserved.</p>
+          <p class="business-info">상호: Finca Las Morenas S.L. · 사업자등록번호: B-12345678</p>
+          <div class="legal-popup-links">
+            <button type="button" id="open-terms" class="legal-btn">이용약관</button>
+            <span class="legal-divider">·</span>
+            <button type="button" id="open-privacy" class="legal-btn legal-btn--highlight">개인정보처리방침</button>
+          </div>
+        </div>
+        <img src="imagenes/logofooter.png" alt="Finca Las Morenas" class="footer-logo footer-logo--desktop">
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODALES LEGALES -->
+  <div class="legal-modal" id="terms-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="legal-backdrop" data-modal-close></div>
+    <div class="legal-modal-content" role="document">
+      <button class="modal-close" aria-label="닫기" data-modal-close>×</button>
+      <h2>이용약관</h2>
+      <div class="modal-body">
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-bottom: 0.3rem;">제1조 (목적)</h3>
+        <p>본 약관은 Spanish Mill / Finca Las Morenas S.L.(이하 "회사")이 운영하는 온라인 서비스(이하 "몰")에서 제공하는 인터넷 관련 서비스(이하 "서비스")를 이용함에 있어 몰과 이용자의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">제2조 (정의)</h3>
+        <p>1. "몰"이란 회사가 재화 또는 용역을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을 말합니다.</p>
+        <p>2. "이용자"란 "몰"에 접속하여 본 약관에 따라 "몰"이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">제3조 (약관의 명시와 개정)</h3>
+        <p>1. "몰"은 이 약관의 내용과 상호, 영업소 소재지, 사업자등록번호, 연락처 등을 이용자가 알 수 있도록 사이트의 초기 서비스 화면에 게시합니다.</p>
+        <p>2. "몰"은 관련 법령을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">제4조 (서비스의 제공 및 변경)</h3>
+        <p>1. "몰"은 재화 또는 용역에 대한 정보 제공 및 구매계약의 체결, 구매계약이 체결된 재화 또는 용역의 배송 등의 업무를 수행합니다.</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">제5조 (청약철회 및 환불)</h3>
+        <p>1. 이용자는 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 수령일로부터 7일 이내에 청약철회를 할 수 있습니다.</p>
+        <p>2. 단, 신선식품(올리브오일 등)의 특성상 개봉 후 상품 가치가 훼손되었거나 이용자의 단순 변심으로 인한 재판매가 불가능한 경우에는 반품 및 교환이 제한될 수 있습니다.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="legal-modal" id="privacy-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="legal-backdrop" data-modal-close></div>
+    <div class="legal-modal-content" role="document">
+      <button class="modal-close" aria-label="닫기" data-modal-close>×</button>
+      <h2>개인정보처리방침</h2>
+      <div class="modal-body">
+        <p>Spanish Mill / Finca Las Morenas S.L.(이하 "회사")은 이용자의 개인정보를 중요시하며, 「개인정보 보호법」 등 관련 법령을 준수하고 있습니다.</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">1. 수집하는 개인정보 항목 및 수집방법</h3>
+        <p>회사는 주문, 배송, 고객상담 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.</p>
+        <p>• <strong>수집항목:</strong> 성명, 전화번호, 배송지 주소, 이메일 주소, 결제 정보</p>
+        <p>• <strong>수집방법:</strong> 홈페이지 주문폼, 전화, 이메일, 네이버 스마트스토어 연동</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">2. 개인정보의 수집 및 이용목적</h3>
+        <p>• 주문 상품의 배송 및 결제 서비스 제공</p>
+        <p>• 주문 확인, 배송 조회 및 고객상담(CS) 대응</p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">3. 개인정보의 보유 및 이용기간</h3>
+        <p>원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 관계법령 규정에 의하여 보존할 필요가 있는 경우 아래 기간 동안 보존합니다.</p>
+        <p>• 계약 또는 청약철회 등에 관한 기록: <strong>5년</strong></p>
+        <p>• 대금결제 및 재화 등의 공급에 관한 기록: <strong>5년</strong></p>
+        <p>• 소비자 불만 또는 분쟁처리에 관한 기록: <strong>3년</strong></p>
+
+        <h3 style="font-size: 0.95rem; color: var(--color-primary-dark); margin-top: 1rem; margin-bottom: 0.3rem;">4. 개인정보 보호책임자 및 문의</h3>
+        <p>• <strong>개인정보 보호책임자:</strong> Spanish Mill 담당자</p>
+        <p>• <strong>이메일:</strong> contact@spanishmill.co.kr</p>
+        <p>• <strong>전화번호:</strong> 010-3680-7560</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS MENÚ HAMPURGUESA Y MODALES -->
+  <script>
+    (function () {
+      var toggle = document.getElementById('menu-toggle');
+      var nav = document.getElementById('main-nav');
+      var header = document.getElementById('main-header');
+
+      if (toggle && nav) {
+        function closeMenu() {
+          nav.classList.remove('is-open');
+          toggle.classList.remove('is-active');
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', '메뉴 열기');
+        }
+
+        toggle.addEventListener('click', function () {
+          var isOpen = nav.classList.toggle('is-open');
+          toggle.classList.toggle('is-active', isOpen);
+          toggle.setAttribute('aria-expanded', String(isOpen));
+          toggle.setAttribute('aria-label', isOpen ? '메뉴 닫기' : '메뉴 열기');
+        });
+
+        nav.querySelectorAll('.nav-link').forEach(function (link) {
+          link.addEventListener('click', closeMenu);
+        });
+
+        window.addEventListener('resize', function () {
+          if (window.innerWidth > 768) closeMenu();
+        });
+      }
+
+      window.addEventListener('scroll', function () {
+        if (header) header.classList.toggle('is-scrolled', window.scrollY > 20);
+      });
+
+      // Modales Legales
+      function openModal(id) {
+        var modal = document.getElementById(id);
+        if (!modal) return;
+        modal.classList.add('is-visible');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('modal-open');
+      }
+
+      function closeModal(modal) {
+        if (!modal) return;
+        modal.classList.remove('is-visible');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('modal-open');
+      }
+
+      var openTerms = document.getElementById('open-terms');
+      var openPrivacy = document.getElementById('open-privacy');
+
+      if (openTerms) {
+        openTerms.addEventListener('click', function (e) {
+          e.preventDefault();
+          openModal('terms-modal');
+        });
+      }
+
+      if (openPrivacy) {
+        openPrivacy.addEventListener('click', function (e) {
+          e.preventDefault();
+          openModal('privacy-modal');
+        });
+      }
+
+      document.querySelectorAll('[data-modal-close]').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+          var modal = e.target.closest('.legal-modal');
+          if (modal) closeModal(modal);
+        });
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          document.querySelectorAll('.legal-modal.is-visible').forEach(function (m) {
+            closeModal(m);
+          });
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
